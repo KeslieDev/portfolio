@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Caono | About</title>
+      
+      
+            <link rel="icon"
+          type="image/x-icon"
+          href="../img/Favicon_circle_16.png">
+      
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- This is where you put your google font in if applicable -->
+<!--     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet"> -->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- This is the link to the toggle hamburger -->
+	 <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/style.css">
+  </head>
+  <body>
+    
+    <div class="d-flex">
+      <nav id="sidebar">
+        <div class="custom-menu">
+          <button type="button" id="sidebarCollapse" class="toggle-btn">
+              <span class="sr-only">Toggle Menu</span>
+                    <div id="nav-icon1" >
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+               </button>
+          </div>
+
+          
+        <div class="p-4 pt-6">
+        <div class="logo">
+          <a href="../index.html"><img alt="Caono Logo" src="../img/Caono-Alabaster.png" width="100%" /></a>
+        </div>
+          
+          
+
+	       <ul class="list-unstyled components">
+	     
+	          <li>
+	            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Foundations</a>
+	            
+			            <ul class="collapse list-unstyled" id="homeSubmenu">
+		                <li>
+		                    <a href="../foundation/type.html">Typography</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/color.html">Color</a>
+		                </li>
+		                <li>
+		                    <a href="../foundation/logo.html">Logo</a>
+		                </li>
+			            </ul>
+	          </li>
+	          
+	          <li>
+              <a href="#ComponentsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Components</a>
+              <ul class="collapse list-unstyled" id="ComponentsSubmenu">
+               <li>
+                    <a href="../components/buttons.html">Buttons</a>
+                </li>
+                <li>
+                    <a href="../components/cards.html">Cards</a>
+                </li>
+                <li>
+                    <a href="../components/navbar.html">Navbar</a>
+                </li>
+              </ul>
+	          </li>
+
+	          <li class="active">
+              <a href="#PatternsSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Patterns</a>
+              <ul class="collapse.show list-unstyled" id="PatternsSubmenu">
+                 <li>
+                    <a href="homepage.html">Homepage</a>
+                </li>
+                <li class="active">
+                    <a href="#">About</a>
+                </li>
+               
+              </ul>
+	          </li>
+
+
+            <li>
+              <a href="#PortfolioSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Portfolio</a>
+              <ul class="collapse list-unstyled" id="PortfolioSubmenu">
+                <li>
+                    <a href="../portfolio/overview.html">Overview</a>
+                </li>
+                <li>
+                    <a href="../portfolio/accessibility.html">Accessibility</a>
+                </li>
+              </ul>
+	          </li>
+	         
+	         
+	        </ul> 
+
+	      
+
+
+	      </div>
+    	</nav>
+
+        <!-- Page Content  -->
+    <div class="container pattern">
+      <div class="row p-5 pt-6">
+        <div id="content">
+          <h1>About Page Patterns</h1>
+            <p>Below are the About page patterns for desktop, tablet, and mobile displays. The grid tabs show the pages arranged using the 12-column Bootstrap method for ensuring that containers are appropriately sized for responsive design.</p>
+            <br>
+
+          <!-- Tabs -->
+          <ul class="nav nav-tabs">
+            <li id="desktop" class="nav-item active" onclick="navClick(this.id)"><a class="nav-link active" data-toggle="tab"
+                href="#Desktop">Desktop</a></li>
+            <li id="desktop-grid" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#DesktopGrid">Desktop Grid</a></li>
+            <li id="tablet" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#Tablet">Tablet</a>
+            </li>
+            <li id="tablet-grid" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#TabletGrid">Tablet Grid</a></li>
+            <li id="mobile" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#Mobile">Mobile</a>
+            </li>
+            <li id="mobile-grid" class=" nav-item" onclick="navClick(this.id)"><a class="nav-link" data-toggle="tab"
+                href="#MobileGrid">Mobile Grid</a></li>
+          </ul>
+
+            <br> 
+          <div class="tab-content">
+            <div id="Desktop" class="tab-pane active">
+              <h2>Desktop</h2>
+              <img src="../img/About%20-%20Desktop%20-%20Dimensions.png" class="img-responsive w-100" />
+            </div>
+            <div id="DesktopGrid" class="tab-pane">
+              <h2>Desktop Grid</h2>
+              <img src="../img/About%20-%20Desktop%20-%20Grid.png" class="img-responsive w-100" />
+            </div>
+            <div id="Tablet" class="tab-pane">
+              <h2>Tablet</h2>
+              <img src="../img/About%20-%20Tablet%20-%20Dimensions.png" class="img-responsive w-75" />
+            </div>
+            <div id="TabletGrid" class="tab-pane">
+              <h2>Tablet Grid</h2>
+              <img src="../img/About%20-%20Tablet%20-%20Grid.png" class="img-responsive w-75" />
+            </div>
+            <div id="Mobile" class="tab-pane">
+              <h2>Mobile</h2>
+              <img src="../img/About%20-%20Mobile%20-%20Dimensions.png" class="img-responsive w-50" />
+            </div>
+            <div id="MobileGrid" class="tab-pane">
+              <h2>Mobile Grid</h2>
+              <img src="../img/About%20-%20Mobile%20-%20Grid.png" class="img-responsive w-50">
+            </div>
+          </div>
+        </div> <!-- Content  -->
+      </div><!-- Row  -->
+    </div><!-- Container -->
+</div>
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/main.js"></script>
+  </body>
+</html>
